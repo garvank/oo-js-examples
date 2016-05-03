@@ -31,3 +31,10 @@
 ..* It should have a `tow` method that only works when the car is `running`.
 ..* `tow` should accept a different Car object that it can tow.
 ..* It's `honk` method should warn people that they should move their car ASAP! (before they get towed)
+
+### Option 3: Create your own!
+1. Think of a base object
+..* It should have shared attributes that other objects can inherit.
+
+2. Think of some objects to inherit your base
+..* These should use polymorphism to update one or more of the base object methods.
