@@ -2,16 +2,16 @@
 ### Option 1: Fantasy Game
 1. Create a base object called `Player`
   * Player should accept `name`, `health`, and `damage`
-  * `name` is the player's name, a string.
+  * `name` is the player’s name, a string.
   * `health` is the amount of HP they have, an integer.
   * `damage` is the amount of damage points they deal, also an integer.
   * Player should have a method called `attack`, that is meant to be overwritten by an inheriting object. 
 
 2. Create a `Mage`
-  * It's `attack` method should accept an opponent as an argument, and should shoot a fireball at them! (be sure to deduct the mage's damage from the opponents health)
+  * Its `attack` method should accept an opponent as an argument, and should shoot a fireball at them! (be sure to deduct the mage’s damage from the opponent’s health)
 
 2. Create an `Archer`
-  * It's `attack` method should accept an opponent as an argument, and should shoot an arrow at them.
+  * Its `attack` method should accept an opponent as an argument, and should shoot an arrow at them.
 
 
 ### Option 2: The Streets!
@@ -25,12 +25,12 @@
 
 2. Create a `PoliceCar`
   * It should have a `startSiren` method that only works when the car is `running`.
-  * It's `honk` method should `startSiren` after it honks.
+  * Its `honk` method should `startSiren` after it honks.
 
 2. Create a `TowTruck`
   * It should have a `tow` method that only works when the car is `running`.
   * `tow` should accept a different Car object that it can tow.
-  * It's `honk` method should warn people that they should move their car ASAP! (before they get towed)
+  * Its `honk` method should warn people that they should move their car ASAP! (before they get towed)
 
 ### Option 3: Create your own!
 1. Think of a base object
